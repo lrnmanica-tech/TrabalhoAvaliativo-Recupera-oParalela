@@ -1,0 +1,74 @@
+*{
+                margin: 0;
+                box-sizing: border-box;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            body{
+                background-color: rgb(226, 226, 226);
+            }
+            #Topo{
+                background-color: rgb(11, 33, 51);
+                color: white;
+}
+            #Topo h1{
+                font-size: 15px;
+            }
+            #Topo a{
+                text-decoration: none;
+                color: white;
+                font-size: 15px;
+                display: inline;
+            }
+            #Inline {
+                display: inline;
+            }
+            #Cabeçalho{
+                text-align:center;
+                font-size: 15px;
+                background-color: rgb(47, 124, 240);
+                color: white;
+                align-items: center;
+                height: 200px;
+                margin: 20px 0;
+                padding: 10px 50px;
+            }
+            .TCabeçalho{
+                margin: 50px 0 40px 0;
+            }
+            .TSobreMim{
+                color:rgb(11, 33, 51);
+                text-align: center;
+                font-size: 25px;
+            }
+            .Container{
+                display: inline-block;
+                align-items: baseline;
+                margin: 0 0 0 120px;
+            }
+            .Card h1{
+                font-size: 20px;
+            }
+            .Card{
+                width: 280px;
+                padding:30px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                background-color: white;
+                margin: 40px 100px;
+                display: inline-block;
+                text-align: center;
+            }
+            footer{
+                background-color: rgb(11, 33, 51);
+                color: white;
+                padding: 30px;
+                text-align: center;
+            }
+            .Voltar{
+                background-color: rgb(23, 116, 255);
+                border-radius: 50px;
+                position: fixed;
+                padding: 20px;
+                margin: 80px 0 110px 0;
+                position: absolute;
+            }
