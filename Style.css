@@ -5,22 +5,29 @@
             }
             body{
                 background-color: rgb(226, 226, 226);
+                scroll-behavior: smooth;
             }
-            #Topo{
+            #Barra{
                 background-color: rgb(11, 33, 51);
                 color: white;
+                display: flex;
+                padding: 15px;
 }
-            #Topo h1{
+            #Barra h1{
                 font-size: 15px;
             }
-            #Topo a{
+            #Barra a{
                 text-decoration: none;
                 color: white;
                 font-size: 15px;
-                display: inline;
+            }
+            #Barra #Links{
+                margin-left: 350px;
+                display: flex;
+                gap: 60px;
             }
             #Inline {
-                display: inline;
+                display: flexbox;
             }
             #Cabeçalho{
                 text-align:center;
@@ -31,6 +38,12 @@
                 height: 200px;
                 margin: 20px 0;
                 padding: 10px 50px;
+            }
+            .Container{
+                display: flex;
+            }
+            .TCabeçalho h1 {
+                margin: 10px;
             }
             .TCabeçalho{
                 margin: 50px 0 40px 0;
@@ -44,25 +57,93 @@
                 display: inline-block;
                 align-items: baseline;
                 margin: 0 0 0 120px;
+                justify-content: baseline;
+            }
+            .Container2LI{
+                display: block;
+                align-items: baseline;
+                margin: 0 0 0 300px;
+                justify-content: baseline;
+            }
+            .TextoCard{
+                margin-top: 20px;
+            }
+            .Divisao1{
+                margin-left: 300px;
+            }
+            .Divisao2{
+                margin-left: 300px;
+            }
+            .Card2{
+                width: 280px;
+                padding:40px;
+                border: 1px solid grey;
+                border-radius: 10px;
+                background-color: white;
+                margin: 40px 10px;
+                display: inline-block;
+                text-align: center;
+                height: 230px;
+            }
+            .MeusProjetosT{
+                text-align: center;
+                margin-top: 20px;
+            }
+            .Ilustração{
+                height: 20px;
+                background-color: rgb(178, 176, 176);
+                height: 80px;
+                margin-bottom: 10px;
+                border-radius: 10px;
+            }
+            .Badge{
+                background-color: orangered;
+                padding: 10px;
+                font-weight: bold; 
+                width: 68px;
+                border-radius: 40px;
+                position: relative;
+                top: -60px;
+                left: 200px;
+            }
+            .Badge p {
+                margin-top: 0;
+            }
+            .Card2 p,
+            .Card2 h1{
+                margin: -10px;
+            }
+            .Card2 p {
+                margin-top: 10px;
             }
             .Card h1{
                 font-size: 20px;
             }
+            .Card2 h1{
+                font-size: 20px;
+            }
+            #SobreMim {
+                display: flex;
+                margin-left: 50px;
+            }
             .Card{
                 width: 280px;
-                padding:30px;
+                padding:40px;
                 border: 1px solid grey;
                 border-radius: 10px;
                 background-color: white;
-                margin: 40px 100px;
+                margin: 40px 10px;
                 display: inline-block;
                 text-align: center;
+                height: 170px;
             }
             footer{
                 background-color: rgb(11, 33, 51);
                 color: white;
                 padding: 30px;
                 text-align: center;
+                top: 100px;
+                position: relative;
             }
             .Voltar{
                 background-color: rgb(23, 116, 255);
@@ -70,5 +151,6 @@
                 position: fixed;
                 padding: 20px;
                 margin: 80px 0 110px 0;
-                position: absolute;
+                top: 550px;
+                z-index: 1;
             }

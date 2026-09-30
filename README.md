@@ -1,1 +1,0 @@
-# TrabalhoAvaliativo-Recupera-oParalela
